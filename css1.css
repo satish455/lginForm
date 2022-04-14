@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.container{
+    background-color: aquamarine;
+    padding:5px 20px  15px 20px;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="dateofbirth"],
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px;
+    border-radius: 5px;
+}
+fieldset{
+    background-color: blueviolet;
+    border:1px solid brown;
+}
+.main_heading{
+    text-align :center;
+}
+
+
